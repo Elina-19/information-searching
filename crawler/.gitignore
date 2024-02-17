@@ -77,4 +77,3 @@ gradle-app.setting
 .classpath
 
 # End of https://www.toptal.com/developers/gitignore/com.technokratos.api/java,intellij,gradle
-**/storage/
