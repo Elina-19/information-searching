@@ -22,7 +22,7 @@ def get_inverted_index():
     return inverted_index
 
 
-def searh(query):
+def search(query):
     expr = query.strip().split()
     inverted_index = get_inverted_index()
     result = Command.L_BR
@@ -52,7 +52,7 @@ if __name__ == "__main__":
             exit()
 
         try:
-            result = searh(query)
+            result = search(query)
             print(f'Found {len(result)} files: {result}')
         except:
             print('Error')
