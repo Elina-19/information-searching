@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Поисковая система</title>
+        <style>
+            body {
+                background-color: bisque;
+                font-family: Arial;
+            }
+            h1 {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            form {
+                width: 100%;
+                padding: 1rem;
+                display: flex;
+            }
+            input {
+                width: 100%;
+                padding: 0.5rem;
+                border-radius: 0.25rem;
+                margin-bottom: 0.5rem;
+                outline: none;
+                border: none;
+            }
+            td {
+                width:500px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <h1>Введите запрос:</h1>
+                </td>
+                <br>
+                <td class="te">
+                    <form action="/" method="POST">
+                        <input type="text" name="input_value">
+                        <input class="button" type="submit" value="Поиск">
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
